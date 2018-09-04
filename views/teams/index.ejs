@@ -1,0 +1,13 @@
+<h2> All the Teams! </h2>
+
+<% teams.forEach(function(t){ %>
+	<div>
+		<!-- = sign prints out to the page --> 
+		<h4>
+			<a href="/teams/<%=t.name%>">
+			<%= t.name %>
+			</a>
+		</h4>
+
+	</div>
+<%});%>
